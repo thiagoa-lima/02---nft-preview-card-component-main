@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 22px;
+}
+
+.card {
+    padding: 24px;
+}
+
+.cubo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+}
+
+.text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 22px;
+    color: #FFF;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 22px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    padding-bottom: 18px;
+   
+}
+
+.box1 p {
+    padding:0;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    align-items: center;
+    display: flex;
+}
+
+.box1 p img {
+    padding-right:5px;
+}
+
+.box1 p1 {
+    padding:0;
+    align-items: center;
+    display: flex;
+}
+
+.box1 p1 img {
+    padding-right:5px;
+
+}
+
+.footer {
+   display: flex; 
+   padding: 0 14px;   
+   align-items: center;
+}
+
+.avatar {
+    width: 35px;
+    border-color: #FFF;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.footer p {
+    font-size: 17px;
+    padding: 0;
+}
+
+.footer strong {
+    color: #FFF;
+    font-weight: unset;
+}
+
+
+hr {
+   margin: 0px 22px;
+   border: 0.3px solid;
+   border-color: hsl(215, 32%, 27%);
+}
